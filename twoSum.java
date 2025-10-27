@@ -1,5 +1,5 @@
 import java.util.*;
-class main{
+class TwoSum{
 public static void main(String[] args) {
     int[] a={2,4,5,6,7};
     int target=8;

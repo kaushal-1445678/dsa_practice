@@ -1,7 +1,7 @@
 import java.util.*;
-class main{
+class CountDigit{
 public static void main(String[] args){
-        int a=129898765;
+        int a=1291;
         int ans=countDigit(a);
         System.out.println(ans);
 }
