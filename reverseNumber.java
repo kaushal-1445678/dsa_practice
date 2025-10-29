@@ -3,7 +3,7 @@ class ReverseNumber{
 public static void main(String[] args){
         int a=12;
         int ans=reverseNumber(a);
-        System.out.println("hello world");
+        
         System.out.println(ans);
 }
 public static int reverseNumber(int n){
