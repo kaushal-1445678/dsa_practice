@@ -5,7 +5,7 @@ const checkPalindrome =(n) =>{
     while(temp!==0){
         let dig=temp%10;
         rv=rv*10+dig;
-        temp=Math.floor(temp/10);
+        temp=Math.trunc(temp/10);
     }
     if(n===rv){
         return true;
