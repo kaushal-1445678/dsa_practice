@@ -21,6 +21,5 @@ const countDigit =(n)=> {
 
 }
 let n=1212898945;
-
 console.log(countDigit(n));
 
