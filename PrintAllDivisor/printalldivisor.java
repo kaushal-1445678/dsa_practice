@@ -1,3 +1,4 @@
+package PrintAllDivisor;
 import java.util.*;
 class PrintAllDivisor{
     public static void main(String[] args) {
