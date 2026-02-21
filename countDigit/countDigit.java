@@ -1,3 +1,4 @@
+package countDigit;
 import java.util.*;
 class CountDigit{
 public static void main(String[] args){
