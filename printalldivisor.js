@@ -13,4 +13,4 @@ const getAllDivisor=(n)=>{
     }
     return divisor;
 }
-console.log(getAllDivisor(n));
+console.log(getAllDivisor(n).join(" "));
