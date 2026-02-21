@@ -1,3 +1,4 @@
+package GCDHCF;
 
 import java.util.*;
 class GCDHCF{
