@@ -14,6 +14,7 @@ public static int countDigit(int a){
         n=n/10;
     }
     return count;
-}
+} 
+
 }
 
