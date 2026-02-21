@@ -1,3 +1,4 @@
+package checkPalindrome;
 import java.util.*;
 class CheckPalindrome{
 public static void main(String[] args){
