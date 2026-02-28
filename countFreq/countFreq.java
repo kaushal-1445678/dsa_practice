@@ -1,3 +1,4 @@
+package countFreq;
 import java.util.*;
 public class countFreq {
     public static void main(String[] args) {
