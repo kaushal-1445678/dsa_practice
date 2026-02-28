@@ -1,3 +1,4 @@
+package isPalindromeUsingRecursion;
 class IsPalindromeUsingRecursion{
     public static void main(String[] args) {
         String s="madsm";
