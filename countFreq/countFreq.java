@@ -15,5 +15,4 @@ public class countFreq {
             System.out.println(entry.getKey()+" "+ entry.getValue());
         }
     }
-
 }
