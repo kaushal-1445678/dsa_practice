@@ -17,27 +17,27 @@
 // console.log(isArm(n));
 
 
-// const isA=(n)=>{
-//     let cnt=0;
-//     let temp=n;
-//     while(temp!=0){
-//         cnt++;
-//         temp=Math.trunc(temp/10);
-//     }
-//     let m=n;
-//     let ans=0;
-//     while(m!=0){
-//         let dig=m%10;
-//         ans=ans+Math.pow(dig,cnt);
-//         m=Math.trunc(m/10);
+const isA=(n)=>{
+    let cnt=0;
+    let temp=n;
+    while(temp!=0){
+        cnt++;
+        temp=Math.trunc(temp/10);
+    }
+    let m=n;
+    let ans=0;
+    while(m!=0){
+        let dig=m%10;
+        ans=ans+Math.pow(dig,cnt);
+        m=Math.trunc(m/10);
 
 
-//     }
-//     if(ans==n){
-//         return true;
-//     }
-//     return false;
-// }
+    }
+    if(ans==n){
+        return true;
+    }
+    return false;
+}
 
-// let n=153;
-// console.log(isA(n));
+let n=153;
+console.log(isA(n));
