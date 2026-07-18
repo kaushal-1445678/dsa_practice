@@ -2,11 +2,11 @@ package checkPalindrome;
 import java.util.*;
 class CheckPalindrome{
 public static void main(String[] args){
-        int a=121;
-        boolean ans=countDigit(a);
+        int a=122;
+        boolean ans=checkPalindrome(a);
         System.out.println(ans);
 }
-public static boolean countDigit(int a){
+public static boolean checkPalindrome(int a){
     int temp=a;
     int rv=0;
     while(temp!=0){
