@@ -1,7 +1,7 @@
 import java.util.*;
 public class CheckPrime{
     public static void main(String[] args){
-        int n=14;
+        int n=19;
         System.out.println(checkPrime(n));
 
     }
