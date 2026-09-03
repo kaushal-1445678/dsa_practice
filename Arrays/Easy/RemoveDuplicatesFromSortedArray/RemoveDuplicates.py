@@ -10,6 +10,8 @@
 #         j+=1
 #     return k
 
+#optimal approach:-
+
 def removeDuplicates(a):
     i=0
     for j in range(1,len(a)):
